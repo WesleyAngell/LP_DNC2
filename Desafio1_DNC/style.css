@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#test{
+    color: #303030;
+}
+#TituloSuperior {
+    margin-top: 110px;
+    margin-left: 62px;
+}
+#TextoSuperior {
+    margin-top: 11px;
+    margin-left: 62px;
+    padding-bottom: 100px;
+}
+#BackGroudSuperior {
+    background-image: url(imagens/FundoSuperior.svg);
+    color: white;
+}
+
+#MenuInformacional {
+    background-color: #F9F9F9;
+    margin-top: 35px;
+    margin-left: 300px;
+    font-size: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+#TextoInformação {
+    margin-left: 300px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#TextoInformação2 {
+    margin-left: 30px;
+}
+#TextoInformação3 {
+    margin-right: 170px;
+}
+
+
+
+#MenuInformacional2 {
+    color: #000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-bottom: 40px;
+}
+#TituloDaInformação {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 150px;
+}
+#TextoDaInformação {
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+#ImageInformação {
+    margin-top: 180px;
+    width: 460px;
+    height: 560px;
+    margin-left: 100px;
+}
+
+#TextoFormulario {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+#MenuFormulario {
+    background-color: #303030;
+    height: 638px;
+    font-size: 15px;
+    text-align: center;
+}
+input {
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    margin-top: 45px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ac6611 ;
+    color: #FFFFFF;
+    transform: translate(+8px);
+    box-shadow: 8px 10px 12px rgba(252, 139, 2, 0.425);
+    transition-duration: 5ms;
+}
